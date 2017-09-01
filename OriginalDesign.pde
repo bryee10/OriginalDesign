@@ -100,8 +100,6 @@ void draw()
      
   }
 }
-
-//going down right
 void in()
 {
   fill(random(256),random(256),random(256));
@@ -109,8 +107,6 @@ void in()
   y = y + framerate;
   x = x + framerate;
 }
-
-//going up left
 void out()
 {
   fill(random(256),random(256),random(256));
@@ -118,8 +114,6 @@ void out()
   a = a - framerate;
   z = z - framerate;
 }
-
-//going up left
 void in2()
 {
   fill(random(256),random(256),random(256));
@@ -127,8 +121,6 @@ void in2()
   b = b - framerate;
   c = c - framerate;
 }
-
-//going down right
 void out2()
 {
   fill(random(256),random(256),random(256));
@@ -136,8 +128,6 @@ void out2()
   d = d + framerate;
   e = e + framerate;
 }
-
-//going up right
 void in3()
 {
   fill(random(256),random(256),random(256));
@@ -145,8 +135,6 @@ void in3()
   f = f + framerate;
   g = g - framerate;
 }
-
-//going down left
 void out3()
 {
   fill(random(256),random(256),random(256));
@@ -154,8 +142,6 @@ void out3()
   h = h - framerate;
   i = i + framerate;
 }
-
-//going down left
 void in4()
 {
   fill(random(256),random(256),random(256));
@@ -163,8 +149,6 @@ void in4()
   j = j - framerate;
   k = k + framerate;
 }
-
-//going up right
 void out4()
 {
   fill(random(256),random(256),random(256));
