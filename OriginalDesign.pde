@@ -25,7 +25,7 @@ void draw()
 {
   if(x <= 300)
   {
-    in();
+    inn();
     if(x >= 300)
     {
       a = 300;
@@ -100,7 +100,7 @@ void draw()
      
   }
 }
-void in()
+void inn()
 {
   fill(random(256),random(256),random(256));
   rect(300,300,x,y);
