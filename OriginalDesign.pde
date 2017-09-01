@@ -14,11 +14,11 @@ int j = 0;
 int k = 0;
 int l = -300;
 int m = 300;
-int framerate = 1;
+int framerate = 5;
 void setup()
 {
   background(0);
-  size(300,300);
+  size(600,600);
 }
 
 void draw()
